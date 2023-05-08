@@ -13,7 +13,7 @@ tags:
   - zetero
   - 论文
 categories:
-  - 论文
+  - zetero环境搭建
 date: 2023-04-17 19:54:37
 password:
 ---
@@ -51,7 +51,7 @@ zetero拥有很多插件，都在Github上进行了开源，访问GitHub进行�
 
 ## 翻译-zotero-pdf-translate.xpi
 
-zetero提供了在阅读英文文献时 `翻译`的插件，支持 `选择翻译`，使用鼠标选取翻译内容即可完成翻译。
+zetero提供了在阅读英文文献时 `翻译`的插件，支持 `选择翻译`，使用鼠标选取翻译内容即可完成翻译。若滑词翻译无效，在zetero的首选项中切换翻译接口。
 
 使用效果
 
@@ -85,17 +85,15 @@ zetero本身只能识别出英文文献的信息，通过这个插件，可以�
 
 安装方法
 
-1. [下载PFDFtk](https://www.pdflabs.com/tools/pdftk-server/)
-2. [下载插件](https://github.com/l0o0/jasminum/releases)
-3. 安装PDFtk，并记住安装的位置
-4. 安装插件，重启软件
-5. 打开zetero首选项，按照图片配置，并设置好PDFtk
+1. [下载插件](https://github.com/l0o0/jasminum/releases)
+2. 安装插件，重启软件
+3. 打开zetero首选项，按照图片配置，并设置好PDFtk
 
    ![配置1](文献管理一个zetero足够了/1681745403519.png)
-6. 进入非官方维护中文翻译器，点击刷新，再点击更新全部
+4. 进入非官方维护中文翻译器，点击刷新，再点击更新全部
 
    ![配置2](文献管理一个zetero足够了/1681745588494.png)
-7. 导入中文论文，使用知网助手提取论文信息
+5. 导入中文论文，使用知网助手提取论文信息
 
 ## 参考文献-zotero-better-bibtex-6.7.75.xpi
 

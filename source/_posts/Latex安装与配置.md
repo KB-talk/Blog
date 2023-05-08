@@ -11,9 +11,8 @@ summary:
   - 此篇文章介绍了如何下载latex相关工具，并配置好好用的编辑环境。
 tags:
   - latex
-  - 环境搭建
 categories:
-  - latex
+  - latex环境搭建
 date: 2023-05-03 21:56:24
 password:
 ---
