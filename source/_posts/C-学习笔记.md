@@ -46,7 +46,13 @@ C++11
 brew install eigen
 ```
 
-本机目录：`/opt/homebrew/Cellar/eigen/3.4.0_1`
+本机目录：/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3
+
+在工程文件中的 `CMakeLists.list`中添加
+
+```
+include_directories( "/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3" )
+```
 
 ### OpenCV
 
@@ -56,7 +62,15 @@ brew install eigen
 brew install opencv
 ```
 
-本机目录：`/opt/homebrew/Cellar/opencv/4.7.0_4`
+本机目录：/opt/homebrew/Cellar/opencv/4.7.0_4/include/opencv4
+
+在工程文件中的 `CMakeLists.list`中添加
+
+```
+include_directories( "/opt/homebrew/Cellar/opencv/4.7.0_4/include/opencv4" )
+```
+
+![1683685733711](C-学习笔记/1683685733711.png)
 
 # Clion使用篇
 
